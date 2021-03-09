@@ -11,3 +11,6 @@ https://github.com/typestack/class-validator
 
 ### Как я структурирую CSS
  https://habr.com/ru/post/523884/
+
+### BEM CSS
+https://habr.com/ru/company/yandex/blog/276035/
