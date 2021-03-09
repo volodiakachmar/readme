@@ -14,3 +14,6 @@ https://github.com/typestack/class-validator
 
 ### BEM CSS
 https://habr.com/ru/company/yandex/blog/276035/
+
+### Common names for div classes
+https://github.com/yoksel/common-words/blob/master/README.md
