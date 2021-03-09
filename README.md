@@ -9,5 +9,5 @@ https://github.com/typestack/class-validator
 ### Шпаргалка
  https://angular.io/guide/cheatsheet
 
-### Шпаргалка
+### Как я структурирую CSS
  https://habr.com/ru/post/523884/
