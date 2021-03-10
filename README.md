@@ -20,3 +20,6 @@ https://github.com/yoksel/common-words/blob/master/README.md
 
 ### BEM problems
 https://habr.com/ru/post/305548/
+
+### BEM instructions
+https://habr.com/ru/post/203440/
