@@ -17,3 +17,6 @@ https://habr.com/ru/company/yandex/blog/276035/
 
 ### Common names for div classes
 https://github.com/yoksel/common-words/blob/master/README.md
+
+### BEM problems
+https://habr.com/ru/post/305548/
