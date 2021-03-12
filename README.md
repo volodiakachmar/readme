@@ -58,7 +58,8 @@ https://material.angular.io/components/categories
 - https://primefaces.org/primeng/showcase/#/colorpicker
 
 ### HTML architecture for future projects
-https://github.com/apennell/she-templates#code-structure
+- https://github.com/apennell/she-templates#code-structure
+- https://csslayout.io/patterns
 
 ### JS
 - top js function I can use in work
