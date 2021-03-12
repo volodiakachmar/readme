@@ -28,3 +28,7 @@ https://habr.com/ru/post/203440/
   - Angular Essentials
   - Darcula
   - Material Icon theme
+  - TSlint
+  - AutoImport
+  - angular2-snippets
+
