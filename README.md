@@ -26,3 +26,5 @@ https://habr.com/ru/post/203440/
 
 ### Visual Code Plugins to install as Angular dev
   - Angular Essentials
+  - Darcula
+  - Material Icon theme
