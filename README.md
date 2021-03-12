@@ -54,6 +54,13 @@ https://material.angular.io/components/categories
 - https://vaadin.com/comparison
 - https://primefaces.org/primeng/showcase/#/colorpicker
 
+### HTML architecture for future projects
+https://github.com/apennell/she-templates#code-structure
+
+### JS
+- top js function I can use in work
+https://1loc.dev/
+
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
