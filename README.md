@@ -36,15 +36,15 @@ https://habr.com/ru/post/203440/
 https://material.angular.io/components/categories
 
 ### Other UI Frameworks for Angular
-https://www.ag-grid.com/
-https://clarity.design/core-components/search/
-https://ng-bootstrap.github.io/#/components/tooltip/examples
-https://valor-software.com/ngx-bootstrap/#/
-https://onsen.io/theme-roller/
-https://ng-lightning.github.io/ng-lightning/
-https://demos.telerik.com/kendo-ui/bar-charts/index
-https://ng-semantic.herokuapp.com/#/elements/search
-https://www.infragistics.com/
-https://vaadin.com/comparison
-https://primefaces.org/primeng/showcase/#/colorpicker
+- https://www.ag-grid.com/
+- https://clarity.design/core-components/search/
+- https://ng-bootstrap.github.io/#/components/tooltip/examples
+- https://valor-software.com/ngx-bootstrap/#/
+- https://onsen.io/theme-roller/
+- https://ng-lightning.github.io/ng-lightning/
+- https://demos.telerik.com/kendo-ui/bar-charts/index
+- https://ng-semantic.herokuapp.com/#/elements/search
+- https://www.infragistics.com/
+- https://vaadin.com/comparison
+- https://primefaces.org/primeng/showcase/#/colorpicker
 
