@@ -64,6 +64,8 @@ https://material.angular.io/components/categories
 - https://csslayout.io/patterns
 - https://codepen.io/adriangyuricska/pen/bNXaBj
 - https://css-tricks.com/snippets/css/css-grid-starter-layouts/
+- https://codepen.io/codyhouse/pen/FdkEf
+- https://colorlib.com/wp/css-layouts/
 
 ### JS
 - top js function I can use in work
