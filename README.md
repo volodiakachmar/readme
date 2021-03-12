@@ -24,4 +24,5 @@ https://habr.com/ru/post/305548/
 ### BEM instructions
 https://habr.com/ru/post/203440/
 
-kjjkhghjg
+### Visual Code Plugins to install as Angular dev
+  - Angular Essentials
