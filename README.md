@@ -62,8 +62,8 @@ https://material.angular.io/components/categories
 ### HTML architecture for future projects
 - https://github.com/apennell/she-templates#code-structure
 - https://csslayout.io/patterns
--https://codepen.io/adriangyuricska/pen/bNXaBj
--https://css-tricks.com/snippets/css/css-grid-starter-layouts/
+- https://codepen.io/adriangyuricska/pen/bNXaBj
+- https://css-tricks.com/snippets/css/css-grid-starter-layouts/
 
 ### JS
 - top js function I can use in work
