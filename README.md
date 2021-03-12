@@ -37,6 +37,9 @@ https://habr.com/ru/post/203440/
   - TSlint
   - AutoImport
   - angular2-snippets
+
+### Form validation library
+https://formvalidation.io/
   
 ### Angular Material UI Framework
 https://material.angular.io/components/categories
@@ -60,6 +63,9 @@ https://github.com/apennell/she-templates#code-structure
 ### JS
 - top js function I can use in work
 https://1loc.dev/
+- how to manage HTML DOM with vanilla JavaScript only? https://htmldom.dev/
+- 
+
 
 
 ### Udemy course and timelines 
