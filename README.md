@@ -1,4 +1,5 @@
 # Angular
+
 ### BEM fast start
 https://ru.bem.info/technologies/classic/project-stub/
 
@@ -29,6 +30,7 @@ https://habr.com/ru/post/305548/
 
 ### BEM instructions
 https://habr.com/ru/post/203440/
+https://ru.bem.info/technologies/classic/project-stub/
 
 ### Visual Code Plugins to install as Angular dev
   - Angular Essentials
@@ -60,6 +62,8 @@ https://material.angular.io/components/categories
 ### HTML architecture for future projects
 - https://github.com/apennell/she-templates#code-structure
 - https://csslayout.io/patterns
+-https://codepen.io/adriangyuricska/pen/bNXaBj
+-https://css-tricks.com/snippets/css/css-grid-starter-layouts/
 
 ### JS
 - top js function I can use in work
@@ -67,7 +71,11 @@ https://material.angular.io/components/categories
 - how to manage HTML DOM with vanilla JavaScript only? https://htmldom.dev/
 - Fake credit card numbers library https://fakenumbers.io/
 
+### CSS
+https://github.com/yoksel/common-words/blob/master/README.md
 
+### RxJS
+-https://academind.com/tutorials/understanding-rxjs/
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
