@@ -62,9 +62,9 @@ https://github.com/apennell/she-templates#code-structure
 
 ### JS
 - top js function I can use in work
-https://1loc.dev/
+  https://1loc.dev/
 - how to manage HTML DOM with vanilla JavaScript only? https://htmldom.dev/
-- 
+- Fake credit card numbers library https://fakenumbers.io/
 
 
 
