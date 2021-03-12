@@ -48,3 +48,6 @@ https://material.angular.io/components/categories
 - https://vaadin.com/comparison
 - https://primefaces.org/primeng/showcase/#/colorpicker
 
+
+### Udemy course and timelines 
+  ## Як працювати з формами(перевірка валідності і відноснг цього блокувати інші елементи) --> 290 episode
