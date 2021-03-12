@@ -75,7 +75,7 @@ https://material.angular.io/components/categories
 https://github.com/yoksel/common-words/blob/master/README.md
 
 ### RxJS
--https://academind.com/tutorials/understanding-rxjs/
+- https://academind.com/tutorials/understanding-rxjs/
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
