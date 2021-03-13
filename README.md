@@ -108,6 +108,7 @@ changeColor(color){
 - Как передвати дані із компоненту або як передавати подію яка сталась в дочерному компоненті так щоб
  про неї дізнався головний компонент / Output()
 
+https://www.youtube.com/watch?v=OKhYwdAzn5k&list=PLDyvV36pndZF-vwsVB48ivZyNJ4ETBKNY&index=8
 
 
 
