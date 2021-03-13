@@ -110,6 +110,12 @@ changeColor(color){
 
 https://www.youtube.com/watch?v=OKhYwdAzn5k&list=PLDyvV36pndZF-vwsVB48ivZyNJ4ETBKNY&index=8
 
+- Directives
+
+```
+ng g d  // to create directive
+```
+
 
 
 ### Udemy course and timelines 
