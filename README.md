@@ -81,6 +81,8 @@ https://github.com/yoksel/common-words/blob/master/README.md
 
 ### READY SNIPPETS FOR ANGULAR+TS
 - як на клік змінювати колір тексту + взаємодія з вибраними клівішами клавіатури
+
+#### HTML
 ```html
 <p (click)="changeColor('blue')" [style.color]="mycolor">
  It is working
@@ -89,6 +91,14 @@ https://github.com/yoksel/common-words/blob/master/README.md
 <input type="text" (input)="changeColor($event.target.value)"
 (keydown.control.shift.enter)="changeColor('green')">
 ```
+#### TS
+
+```ts
+changeColor(color){
+  this.mycolor = color;
+}
+```
+
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
