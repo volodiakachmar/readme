@@ -79,6 +79,17 @@ https://github.com/yoksel/common-words/blob/master/README.md
 ### RxJS
 - https://academind.com/tutorials/understanding-rxjs/
 
+### READY SNIPPETS FOR ANGULAR+TS
+- як на клік змінювати колір тексту + взаємодія з вибраними клівішами клавіатури
+```html
+<p (click)="changeColor('blue')" [style.color]="mycolor">
+ It is working
+</p>
+
+<input type="text" (input)="changeColor($event.target.value)"
+(keydown.control.shift.enter)="changeColor('green')">
+```
+
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
    - Запрос до Firebase з фронту(логування реєстрація + токен і зразу перевіряє чи вже такий емейл існую) --> 291-294
