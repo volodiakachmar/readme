@@ -42,6 +42,7 @@ https://formvalidation.io/
 https://material.angular.io/components/categories
 
 ### Other UI Frameworks for Angular
+- https://taiga-ui.dev/
 - https://www.ag-grid.com/
 - https://clarity.design/core-components/search/
 - https://ng-bootstrap.github.io/#/components/tooltip/examples
@@ -212,6 +213,31 @@ this._route.navigate('users, userId', {skipLocationChange: true, relativeTo: thi
 ...
 <button click="goToUser(someParam)"></button>
 ```  
+ 
+- Маршрутизатор События роутера (Router Events)
+
+```ts
+import { ActivatedRoute, Router, Event } from '@angular/router';
+...
+
+export class UsersComponent implements OnInit {
+
+constructor(private route: ActivatedRoute, private router: Router){
+  this.route.queryParams.subscribe(params => console.log(params));
+  this.route.data.subscribe(data => console.log(data));
+  
+  this.router.events.subscribe(events: Event) => {
+   if(event instanceof NavigationStart) {
+    console.log(events);
+      }  
+    }
+  }
+}
+```
+
+### RxJS
+
+
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
