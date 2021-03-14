@@ -157,6 +157,61 @@ constructor(_http: HttpClient){
   }
 }
 ```
+- Routing
+
+#### app.component.html
+
+```html
+<a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a> <!-- active is a СSS class -->
+<a routerLink="users" routerLinkActive="active">Users</a>
+<a routerLink="users" [queryParams]="{q: notFound}" routerLinkActive="active">New</a>  
+```
+
+
+#### app.module.ts
+
+```ts
+const routes = [
+{ path: '', component: HomeComponent },
+{ path: 'users', component: UsersComponent },
+{ path: 'user/:userId', component: UsersComponent }
+];
+
+@NgModule({
+declarations: [],
+imports: [
+BrowserModule,
+RouterModule.forRooot(routes)
+]
+
+})
+```
+
+#### home.component.ts
+
+```ts
+...
+export class HomeComponent implements OnInit {
+
+constructor(private _router:Router, private _route: ActivatedRoute){  }
+
+ngOnInit(){  }
+
+goToUser(userId) {
+this._route.navigate('users, userId', {skipLocationChange: true, relativeTo: this._route})
+ .then(_ => {
+
+  });
+}
+
+```  
+
+#### home.component.html
+
+```html
+...
+<button click="goToUser(someParam)"></button>
+```  
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
