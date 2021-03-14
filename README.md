@@ -1,10 +1,12 @@
 # Angular
 
 ### BEM fast start
-https://ru.bem.info/technologies/classic/project-stub/
+- https://ru.bem.info/technologies/classic/project-stub/
+- https://habr.com/ru/company/yandex/blog/276035/
+- https://habr.com/ru/post/305548/
+- https://habr.com/ru/post/203440/
+- https://ru.bem.info/technologies/classic/project-stub/
 
-### Bem useful article and links
-https://habr.com/ru/company/yandex/blog/276035/
 
 ### Реактивные формы (Reactive Forms) в Angular
 
@@ -24,13 +26,6 @@ https://habr.com/ru/company/yandex/blog/276035/
 
 ### Common names for div classes
 https://github.com/yoksel/common-words/blob/master/README.md
-
-### BEM problems
-https://habr.com/ru/post/305548/
-
-### BEM instructions
-https://habr.com/ru/post/203440/
-https://ru.bem.info/technologies/classic/project-stub/
 
 ### Visual Code Plugins to install as Angular dev
   - Angular Essentials
@@ -116,7 +111,44 @@ https://www.youtube.com/watch?v=OKhYwdAzn5k&list=PLDyvV36pndZF-vwsVB48ivZyNJ4ETB
 ng g d  // to create directive
 ```
 
+- Inteceptors
+Звичайний сервіс який обробляє запроси на сервер і з серверу.
 
+HttpClient -> Interceptors -> API
+HttpClient <- Interceptors <- API
+
+#### interceptor.service.ts
+
+```ts
+import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+
+@Injectable()
+export class MyInterceptor implements HttpInterceptor {
+  intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+   const request = req.clone({params: req.params.set('x','5')});
+   return next.handle(request);
+  }
+}
+```
+
+#### app.component.ts
+
+```ts
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+...
+
+export class AppComponent {
+constructor(_http: HttpClient){
+   _http.get('https://api.github.com/search/users').subscribe(results => {
+     console.log(results);
+   })
+  }
+}
+```
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
