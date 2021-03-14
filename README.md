@@ -123,12 +123,20 @@ HttpClient <- Interceptors <- API
 import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/observable/throw';
+
 
 @Injectable()
 export class MyInterceptor implements HttpInterceptor {
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
    const request = req.clone({params: req.params.set('x','5')});
-   return next.handle(request);
+   return next.handle(request).catch( error => {
+       if(error.status === 401) {
+         console.log('Redirect tp login')
+      }
+      return Observable.throw(error);
+    });
   }
 }
 ```
