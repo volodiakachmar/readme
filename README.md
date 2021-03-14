@@ -8,8 +8,8 @@
 - https://ru.bem.info/technologies/classic/project-stub/
 
 
-### Реактивные формы (Reactive Forms) в Angular
-
+### Реактивные формы (Reactive Forms) в Angular + all I need to know about Forms + Validation + error messages
+https://github.com/Maks-Zhitlov/angular-reactive-forms
 https://medium.com/@maks.zhitlov/reactive-forms-in-angular-2f8abe884f79
 
 ### class-validator
