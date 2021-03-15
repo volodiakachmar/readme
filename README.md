@@ -15,6 +15,9 @@ https://medium.com/@maks.zhitlov/reactive-forms-in-angular-2f8abe884f79
 ### class-validator
 https://github.com/typestack/class-validator
  
+### Angular interview questions
+https://github.com/sudheerj/angular-interview-questions#what-is-an-observer
+ 
 ### Шпаргалка
  https://angular.io/guide/cheatsheet
 
@@ -54,6 +57,8 @@ https://material.angular.io/components/categories
 - https://www.infragistics.com/
 - https://vaadin.com/comparison
 - https://primefaces.org/primeng/showcase/#/colorpicker
+- https://material.src.zone/components/card
+- https://trimox.github.io/angular-mdc-web/#/angular-mdc-web/slider/examples
 
 ### HTML architecture for future projects
 - https://github.com/apennell/she-templates#code-structure
@@ -62,6 +67,8 @@ https://material.angular.io/components/categories
 - https://css-tricks.com/snippets/css/css-grid-starter-layouts/
 - https://codepen.io/codyhouse/pen/FdkEf
 - https://colorlib.com/wp/css-layouts/
+- https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout
+- https://getbootstrap.com/docs/4.0/layout/grid/
 
 ### JS
 - top js function I can use in work
@@ -238,6 +245,33 @@ constructor(private route: ActivatedRoute, private router: Router){
 ### RxJS
 
 
+### Interesting repo on GitHub
+- [Comprehensive Introduction to @ngrx/store](https://gist.github.com/btroncone/a6e4347326749f938510)
+- [Authentication in Angular with NGRX](https://mherman.org/blog/authentication-in-angular-with-ngrx/)
+
+### Angular Security
+- [Angular.io Security Guide](https://angular.io/guide/security)
+
+### Angular Auth with Auth()
+- [Angular 2 authentication sample from auth0-blog](https://auth0.com/blog/complete-guide-to-angular-user-authentication/)
+
+### Ready Components with Bit
+[Bit platform with ready components](https://bit.dev/components)
+
+### Angular for Mobile Dev
+- [NativeScript](https://play.nativescript.org/)
+- [Using NativeScript](https://www.syntaxsuccess.com/viewarticle/using-nativescript-with-angular-2.0)
+- [angular-meteor](https://angular-meteor.com/tutorials/whatsapp2/ionic/setup)
+
+### Angular with Babel
+- [Babel](https://babeljs.io/)
+- [A skeleton Angular 2 app built with Babel and Browserify](https://plnkr.co/edit/PxCzCu?p=preview&preview)
+- [skeleton with Babel](https://github.com/shuhei/babel-angular2-app)
+
+### Angular with TS
+- [TS Doc](https://www.typescriptlang.org/)
+- [TS playground](https://www.typescriptlang.org/play?#code)
+- [Angular animation](https://jiayihu.github.io/ng-animate/)
 
 ### Udemy course and timelines 
    - Як працювати з формами(перевірка валідності і відносно цього блокувати інші елементи) --> 290 episode
