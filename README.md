@@ -7,6 +7,8 @@
 - https://habr.com/ru/post/203440/
 - https://ru.bem.info/technologies/classic/project-stub/
 
+### Angular Upgrade to another Version
+https://update.angular.io/?l=3&v=5.0-11.0
 
 ### Реактивные формы (Reactive Forms) в Angular + all I need to know about Forms + Validation + error messages
 https://github.com/Maks-Zhitlov/angular-reactive-forms
@@ -243,6 +245,10 @@ constructor(private route: ActivatedRoute, private router: Router){
 ```
 
 ### RxJS
+https://rxru.fun/#/api/operators/pipeable/zip
+
+### NgRx
+https://ngrx.io/guide/store/why
 
 
 ### Interesting repo on GitHub
