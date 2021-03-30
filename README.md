@@ -7,6 +7,9 @@
 - https://habr.com/ru/post/203440/
 - https://ru.bem.info/technologies/classic/project-stub/
 
+### Angular folder structure 
+- https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
+
 ### Angular Upgrade to another Version
 https://update.angular.io/?l=3&v=5.0-11.0
 
