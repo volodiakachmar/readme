@@ -253,6 +253,8 @@ https://rxru.fun/#/api/operators/pipeable/zip
 ### NgRx
 - [documentation](https://ngrx.io/guide/store/why)
 - [article #1 ru](https://medium.com/ngx/angular-ngrx-%D1%8F%D1%81%D0%BD%D0%BE%D0%B5-%D0%B8-%D1%87%D1%91%D1%82%D0%BA%D0%BE%D0%B5-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-bdf1c97f44b2)
+- https://tony-scialo.github.io/slides-ngrx/#/56
+- [presentation #2 ru](https://docs.google.com/presentation/d/1MknPww1MdwzreFvDh086TzqaB5yyQga0PaoRR9bgCXs/edit#slide=id.g2fa7fd70ec_0_2288)
 
 
 ### Interesting repo on GitHub
