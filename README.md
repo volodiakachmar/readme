@@ -7,6 +7,9 @@
 - https://habr.com/ru/post/203440/
 - https://ru.bem.info/technologies/classic/project-stub/
 
+### CSS Auto Grid 
+-[layoutit](https://www.layoutit.com/cn)
+
 ### Angular folder structure 
 - https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
 
